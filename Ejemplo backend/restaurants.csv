@@ -1,0 +1,51 @@
+id,restaurant,food type,price range,rating
+1,The Gourmet Kitchen,Italian,$$$,4.5
+2,Sushi Haven,Japanese,$$$,4.7
+3,Spice Symphony,Indian,$$,4.3
+4,La Petite Bistro,French,$$$,4.6
+5,Green Garden,Vegan,$$,4.2
+6,BBQ Bliss,American,$$,4.4
+7,Dragon's Den,Chinese,$$,4.1
+8,El Mariachi,Mexican,$$,4.5
+9,The Seafood Shack,Seafood,$$$,4.6
+10,Urban Eatery,Contemporary,$$$,4.3
+11,Pasta Palace,Italian,$$,4.2
+12,Sakura Sushi,Japanese,$$$,4.8
+13,Curry Corner,Indian,$$,4.1
+14,Le Gourmet,French,$$$,4.7
+15,Plant Power,Vegan,$$,4.3
+16,Grill Master,American,$$,4.5
+17,Pho Paradise,Vietnamese,$$,4.4
+18,Taco Town,Mexican,$$,4.2
+19,Ocean's Bounty,Seafood,$$$,4.7
+20,Modern Munch,Contemporary,$$$,4.4
+21,Pizza Perfection,Italian,$$,4.3
+22,Tokyo Table,Japanese,$$$,4.6
+23,Spice Route,Indian,$$,4.2
+24,Le Petit Chef,French,$$$,4.8
+25,Healthy Haven,Vegan,$$,4.4
+26,Smokey's BBQ,American,$$,4.5
+27,Noodle Nirvana,Chinese,$$,4.3
+28,Fiesta Fiesta,Mexican,$$,4.6
+29,Neptune's Catch,Seafood,$$$,4.7
+30,Trendy Treats,Contemporary,$$$,4.5
+31,Trattoria Toscana,Italian,$$,4.4
+32,Sushi Sensation,Japanese,$$$,4.7
+33,Masala Magic,Indian,$$,4.3
+34,La Belle Vie,French,$$$,4.8
+35,Green Eats,Vegan,$$,4.5
+36,American Diner,American,$$,4.4
+37,Dim Sum Delight,Chinese,$$,4.2
+38,Taco Loco,Mexican,$$,4.6
+39,Poseidon's Plate,Seafood,$$$,4.8
+40,Urban Bites,Contemporary,$$$,4.5
+41,Ristorante Roma,Italian,$$,4.3
+42,Sushi Supreme,Japanese,$$$,4.8
+43,Spice Delight,Indian,$$,4.4
+44,Le Chef's Table,French,$$$,4.7
+45,Vegan Vibes,Vegan,$$,4.3
+46,Grill & Chill,American,$$,4.5
+47,Chow Mein House,Chinese,$$,4.1
+48,El Burrito,Mexican,$$,4.5
+49,Seafood Sensation,Seafood,$$$,4.7
+50,Modern Morsels,Contemporary,$$$,4.4
