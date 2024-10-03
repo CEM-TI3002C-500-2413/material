@@ -1,0 +1,201 @@
+id,restaurant,food type,price range,rating,clients per month,location,recommended
+1,Taco Town,Indian,$30-$40,2.5,2147,"San Jose, CA",Yes
+2,Pizza Paradise,Indian,$40-$50,2.2,218,"New York, NY",No
+3,Taco Town,Italian,$10-$20,2.4,9566,"Los Angeles, CA",Yes
+4,Burger Barn,American,$30-$40,3.1,9144,"Los Angeles, CA",Yes
+5,Sushi Central,Vegan,$40-$50,3.4,5876,"New York, NY",No
+6,Burger Barn,American,$30-$40,4.2,5500,"San Jose, CA",Yes
+7,Sushi Central,Seafood,$40-$50,4.5,8544,"Philadelphia, PA",Yes
+8,Vegan Valley,American,$10-$20,3.1,6291,"Philadelphia, PA",Yes
+9,Vegan Valley,Seafood,$20-$30,2.9,7638,"Chicago, IL",Yes
+10,Pasta Palace,American,$10-$20,4.0,7025,"Los Angeles, CA",No
+11,Taco Town,Vegan,$20-$30,4.1,1748,"San Jose, CA",No
+12,BBQ Bliss,Indian,$30-$40,3.8,9994,"Chicago, IL",No
+13,Pasta Palace,Seafood,$20-$30,4.3,185,"San Diego, CA",No
+14,Pasta Palace,Italian,$20-$30,3.5,9323,"San Diego, CA",Yes
+15,The Gourmet Kitchen,Indian,$40-$50,4.8,9261,"San Jose, CA",No
+16,Burger Barn,Vegan,$30-$40,3.1,9277,"Philadelphia, PA",Yes
+17,BBQ Bliss,Vegan,$20-$30,2.2,1841,"Phoenix, AZ",Yes
+18,The Gourmet Kitchen,Japanese,$10-$20,1.6,9491,"Los Angeles, CA",Yes
+19,Pizza Paradise,BBQ,$20-$30,2.0,9214,"Houston, TX",No
+20,Taco Town,American,$40-$50,2.0,7869,"New York, NY",No
+21,Pizza Paradise,American,$30-$40,2.8,4511,"San Diego, CA",No
+22,Vegan Valley,Seafood,$10-$20,3.1,6503,"Philadelphia, PA",No
+23,BBQ Bliss,Japanese,$30-$40,3.7,5631,"Chicago, IL",No
+24,Pizza Paradise,Mexican,$40-$50,4.8,1169,"New York, NY",No
+25,Burger Barn,Seafood,$30-$40,1.2,2866,"Dallas, TX",No
+26,Pizza Paradise,Seafood,$30-$40,4.4,9821,"New York, NY",Yes
+27,Burger Barn,Mexican,$30-$40,2.0,1095,"San Diego, CA",Yes
+28,Vegan Valley,BBQ,$10-$20,1.1,3683,"New York, NY",No
+29,Pizza Paradise,Vegan,$30-$40,4.4,7881,"New York, NY",No
+30,Vegan Valley,American,$10-$20,3.6,3947,"Dallas, TX",Yes
+31,Taco Town,Japanese,$40-$50,4.3,6584,"New York, NY",Yes
+32,Curry Corner,American,$30-$40,3.9,9948,"New York, NY",No
+33,BBQ Bliss,Italian,$30-$40,1.6,5943,"Chicago, IL",Yes
+34,Vegan Valley,Mexican,$10-$20,4.8,1526,"Houston, TX",Yes
+35,Pasta Palace,BBQ,$30-$40,3.0,5788,"San Jose, CA",Yes
+36,BBQ Bliss,Mexican,$10-$20,1.3,116,"New York, NY",No
+37,Taco Town,Mexican,$10-$20,4.0,2449,"Philadelphia, PA",Yes
+38,Burger Barn,Vegan,$10-$20,3.6,3925,"San Diego, CA",No
+39,Seafood Shack,Vegan,$20-$30,2.7,578,"San Diego, CA",No
+40,Sushi Central,BBQ,$10-$20,4.7,7950,"Chicago, IL",No
+41,Taco Town,Italian,$40-$50,2.1,3642,"Los Angeles, CA",No
+42,Pasta Palace,Mexican,$30-$40,2.2,6391,"Philadelphia, PA",No
+43,The Gourmet Kitchen,Italian,$10-$20,4.3,8112,"San Diego, CA",Yes
+44,Burger Barn,Indian,$20-$30,2.4,3167,"San Antonio, TX",No
+45,BBQ Bliss,Indian,$10-$20,4.3,9166,"Chicago, IL",Yes
+46,Pizza Paradise,Italian,$30-$40,3.0,4512,"Philadelphia, PA",No
+47,BBQ Bliss,American,$30-$40,1.6,9857,"New York, NY",No
+48,Pasta Palace,Japanese,$40-$50,1.6,9510,"Dallas, TX",Yes
+49,Pasta Palace,Indian,$30-$40,4.1,3161,"Phoenix, AZ",Yes
+50,Curry Corner,BBQ,$20-$30,4.5,5801,"Chicago, IL",Yes
+51,Pasta Palace,Vegan,$20-$30,2.5,550,"Philadelphia, PA",Yes
+52,Pasta Palace,Indian,$20-$30,4.3,940,"San Jose, CA",Yes
+53,Taco Town,American,$10-$20,3.7,1033,"New York, NY",No
+54,The Gourmet Kitchen,Indian,$40-$50,2.9,212,"San Jose, CA",Yes
+55,Seafood Shack,American,$40-$50,4.7,7373,"San Antonio, TX",Yes
+56,Sushi Central,Mexican,$30-$40,3.4,3721,"Phoenix, AZ",Yes
+57,The Gourmet Kitchen,Japanese,$20-$30,2.4,2882,"Dallas, TX",Yes
+58,Seafood Shack,Japanese,$20-$30,4.3,9536,"New York, NY",No
+59,Burger Barn,Vegan,$20-$30,4.3,3048,"Chicago, IL",No
+60,Pizza Paradise,Japanese,$10-$20,4.1,4319,"Dallas, TX",No
+61,Pizza Paradise,Japanese,$30-$40,2.5,1738,"Dallas, TX",No
+62,Pasta Palace,American,$10-$20,3.8,6008,"San Jose, CA",No
+63,Pizza Paradise,Mexican,$20-$30,1.5,4526,"Phoenix, AZ",No
+64,Pasta Palace,Italian,$10-$20,1.7,4662,"San Jose, CA",Yes
+65,Curry Corner,Mexican,$40-$50,4.2,9845,"Dallas, TX",No
+66,Curry Corner,Japanese,$10-$20,2.6,9308,"Philadelphia, PA",Yes
+67,Seafood Shack,Seafood,$40-$50,1.2,7446,"Houston, TX",No
+68,The Gourmet Kitchen,American,$10-$20,1.6,7247,"New York, NY",Yes
+69,Pasta Palace,Japanese,$30-$40,4.1,6728,"New York, NY",Yes
+70,Taco Town,Japanese,$40-$50,1.7,2996,"Dallas, TX",Yes
+71,Pizza Paradise,Mexican,$10-$20,4.0,5351,"Dallas, TX",Yes
+72,Curry Corner,Japanese,$40-$50,4.2,8669,"Dallas, TX",No
+73,Pasta Palace,BBQ,$40-$50,1.2,9409,"Dallas, TX",Yes
+74,The Gourmet Kitchen,Italian,$20-$30,2.0,6551,"San Jose, CA",Yes
+75,BBQ Bliss,Seafood,$10-$20,3.4,8719,"Los Angeles, CA",No
+76,BBQ Bliss,Vegan,$30-$40,1.4,2619,"Phoenix, AZ",Yes
+77,Sushi Central,Japanese,$20-$30,3.1,1991,"Los Angeles, CA",Yes
+78,BBQ Bliss,Italian,$20-$30,1.1,3140,"San Jose, CA",Yes
+79,Seafood Shack,BBQ,$30-$40,2.1,5016,"San Jose, CA",Yes
+80,BBQ Bliss,American,$30-$40,2.7,8939,"New York, NY",No
+81,Vegan Valley,Japanese,$10-$20,2.7,4427,"Philadelphia, PA",No
+82,Pizza Paradise,BBQ,$30-$40,4.7,5245,"Los Angeles, CA",No
+83,Burger Barn,Seafood,$30-$40,2.1,8708,"Houston, TX",No
+84,Pasta Palace,Indian,$40-$50,3.2,6969,"Dallas, TX",No
+85,Vegan Valley,Vegan,$20-$30,3.6,1052,"Chicago, IL",Yes
+86,Taco Town,Vegan,$10-$20,4.8,1871,"Los Angeles, CA",No
+87,Curry Corner,Italian,$10-$20,1.3,8592,"New York, NY",No
+88,Curry Corner,Japanese,$40-$50,3.9,10000,"San Jose, CA",No
+89,The Gourmet Kitchen,Indian,$10-$20,1.7,7709,"San Diego, CA",Yes
+90,Curry Corner,Japanese,$20-$30,4.8,2607,"Philadelphia, PA",No
+91,Pasta Palace,Vegan,$20-$30,1.9,9973,"Philadelphia, PA",No
+92,Curry Corner,Seafood,$20-$30,1.7,1994,"Dallas, TX",Yes
+93,Pizza Paradise,Vegan,$40-$50,1.6,2504,"Chicago, IL",Yes
+94,Taco Town,Japanese,$30-$40,4.6,3542,"Houston, TX",No
+95,The Gourmet Kitchen,Vegan,$10-$20,3.4,2043,"Houston, TX",Yes
+96,Curry Corner,Seafood,$20-$30,1.7,7538,"San Jose, CA",No
+97,Sushi Central,BBQ,$10-$20,2.3,348,"San Antonio, TX",No
+98,Sushi Central,Italian,$40-$50,1.3,6990,"Dallas, TX",Yes
+99,Taco Town,Italian,$30-$40,2.5,7240,"San Jose, CA",Yes
+100,Pizza Paradise,BBQ,$10-$20,5.0,2104,"San Diego, CA",No
+101,Burger Barn,Italian,$20-$30,3.3,4053,"Phoenix, AZ",Yes
+102,Vegan Valley,Seafood,$20-$30,4.0,1778,"San Jose, CA",No
+103,Curry Corner,Seafood,$20-$30,1.2,1457,"San Antonio, TX",No
+104,Sushi Central,Japanese,$10-$20,4.6,2105,"San Diego, CA",No
+105,Pizza Paradise,Italian,$10-$20,4.3,7437,"San Antonio, TX",Yes
+106,Curry Corner,Italian,$40-$50,4.8,4129,"Chicago, IL",Yes
+107,Pasta Palace,Italian,$20-$30,1.8,8063,"San Antonio, TX",No
+108,Burger Barn,BBQ,$10-$20,1.4,9177,"Los Angeles, CA",Yes
+109,Curry Corner,Seafood,$10-$20,2.3,1468,"Dallas, TX",Yes
+110,Pasta Palace,Indian,$20-$30,3.2,8138,"Philadelphia, PA",No
+111,Pasta Palace,Indian,$40-$50,5.0,4369,"Dallas, TX",No
+112,Seafood Shack,Japanese,$40-$50,3.0,1176,"San Antonio, TX",No
+113,Taco Town,Mexican,$10-$20,1.5,1059,"Dallas, TX",Yes
+114,Curry Corner,American,$10-$20,4.9,2811,"San Jose, CA",No
+115,Pizza Paradise,Indian,$40-$50,3.2,581,"San Diego, CA",Yes
+116,Curry Corner,Indian,$10-$20,3.8,1875,"San Jose, CA",Yes
+117,Vegan Valley,Italian,$10-$20,1.2,6216,"Philadelphia, PA",Yes
+118,Sushi Central,BBQ,$40-$50,3.4,334,"San Jose, CA",Yes
+119,Seafood Shack,Mexican,$10-$20,2.4,3821,"San Antonio, TX",No
+120,Taco Town,Seafood,$40-$50,3.3,7666,"Phoenix, AZ",Yes
+121,Seafood Shack,Japanese,$20-$30,3.6,6105,"Phoenix, AZ",No
+122,Curry Corner,Seafood,$20-$30,2.6,1999,"San Jose, CA",No
+123,Taco Town,American,$10-$20,3.2,9650,"San Jose, CA",Yes
+124,Burger Barn,BBQ,$40-$50,2.4,2271,"Phoenix, AZ",Yes
+125,Sushi Central,Seafood,$10-$20,3.0,4347,"San Diego, CA",Yes
+126,BBQ Bliss,Japanese,$40-$50,3.4,3322,"Los Angeles, CA",Yes
+127,Sushi Central,Mexican,$10-$20,2.5,9968,"Philadelphia, PA",Yes
+128,Pizza Paradise,BBQ,$40-$50,2.4,9593,"San Diego, CA",Yes
+129,Pizza Paradise,BBQ,$20-$30,3.9,8783,"Los Angeles, CA",Yes
+130,BBQ Bliss,BBQ,$10-$20,4.4,5474,"San Jose, CA",No
+131,Curry Corner,Seafood,$10-$20,3.1,8220,"San Antonio, TX",No
+132,BBQ Bliss,Seafood,$40-$50,2.1,8380,"Philadelphia, PA",Yes
+133,Pasta Palace,Japanese,$20-$30,3.9,5328,"Chicago, IL",Yes
+134,BBQ Bliss,American,$30-$40,4.1,8209,"Dallas, TX",Yes
+135,Sushi Central,American,$20-$30,1.4,4956,"New York, NY",Yes
+136,Taco Town,Vegan,$40-$50,2.7,6213,"Philadelphia, PA",No
+137,Pizza Paradise,Italian,$20-$30,3.4,1543,"Houston, TX",Yes
+138,Sushi Central,Vegan,$30-$40,2.4,3974,"Houston, TX",No
+139,Taco Town,Italian,$20-$30,3.8,6476,"Chicago, IL",No
+140,Curry Corner,Indian,$10-$20,2.1,933,"Phoenix, AZ",Yes
+141,BBQ Bliss,Italian,$40-$50,3.5,5266,"Dallas, TX",Yes
+142,Pizza Paradise,Japanese,$10-$20,3.9,5521,"Houston, TX",No
+143,Taco Town,Mexican,$10-$20,4.0,5071,"New York, NY",Yes
+144,Seafood Shack,Seafood,$10-$20,4.8,1744,"Los Angeles, CA",Yes
+145,Pizza Paradise,Indian,$30-$40,3.2,5667,"Los Angeles, CA",No
+146,Taco Town,Seafood,$40-$50,2.4,2506,"San Jose, CA",Yes
+147,Pizza Paradise,Japanese,$30-$40,2.3,4517,"San Diego, CA",No
+148,Seafood Shack,Mexican,$20-$30,4.9,9576,"Los Angeles, CA",No
+149,Vegan Valley,Japanese,$10-$20,2.4,3422,"New York, NY",Yes
+150,BBQ Bliss,Japanese,$20-$30,2.8,945,"San Diego, CA",No
+151,Pizza Paradise,American,$10-$20,3.0,8336,"San Jose, CA",No
+152,Curry Corner,Mexican,$30-$40,2.7,5203,"Houston, TX",Yes
+153,Pizza Paradise,Japanese,$20-$30,2.5,5045,"Phoenix, AZ",Yes
+154,Taco Town,American,$40-$50,2.5,3684,"Houston, TX",No
+155,Curry Corner,Italian,$20-$30,3.9,6268,"Houston, TX",No
+156,Seafood Shack,BBQ,$20-$30,1.5,9228,"Philadelphia, PA",No
+157,Curry Corner,Italian,$40-$50,1.4,5287,"New York, NY",Yes
+158,Pasta Palace,Italian,$10-$20,3.6,3596,"Phoenix, AZ",No
+159,The Gourmet Kitchen,BBQ,$40-$50,2.9,6030,"San Diego, CA",Yes
+160,Seafood Shack,Seafood,$20-$30,3.3,6339,"Los Angeles, CA",No
+161,Sushi Central,Seafood,$20-$30,4.9,1133,"Phoenix, AZ",Yes
+162,Sushi Central,Seafood,$40-$50,4.7,7072,"Houston, TX",Yes
+163,Pasta Palace,Indian,$40-$50,4.7,3360,"Chicago, IL",No
+164,Pizza Paradise,Indian,$40-$50,2.0,8634,"Chicago, IL",No
+165,Sushi Central,BBQ,$10-$20,4.3,4601,"Houston, TX",No
+166,Curry Corner,Indian,$40-$50,2.1,8676,"Phoenix, AZ",Yes
+167,Vegan Valley,Vegan,$10-$20,3.1,4752,"Dallas, TX",No
+168,Vegan Valley,Vegan,$10-$20,3.3,4737,"Philadelphia, PA",No
+169,Pizza Paradise,Seafood,$30-$40,3.9,9114,"San Jose, CA",No
+170,Pasta Palace,Vegan,$10-$20,4.9,1921,"Phoenix, AZ",Yes
+171,Taco Town,Japanese,$20-$30,4.3,3837,"Houston, TX",No
+172,Taco Town,Seafood,$10-$20,1.9,5871,"Philadelphia, PA",No
+173,Sushi Central,Italian,$10-$20,3.1,1999,"San Diego, CA",No
+174,Burger Barn,Indian,$40-$50,4.8,1817,"Philadelphia, PA",Yes
+175,Pasta Palace,Indian,$40-$50,3.2,9605,"San Diego, CA",Yes
+176,Burger Barn,American,$40-$50,4.0,820,"San Jose, CA",No
+177,Vegan Valley,Vegan,$10-$20,1.8,341,"Philadelphia, PA",No
+178,Pizza Paradise,BBQ,$40-$50,3.9,8856,"Philadelphia, PA",No
+179,Sushi Central,Japanese,$10-$20,3.9,6755,"Dallas, TX",No
+180,Vegan Valley,BBQ,$10-$20,1.0,7436,"Chicago, IL",No
+181,Curry Corner,Italian,$10-$20,1.9,1126,"New York, NY",Yes
+182,Seafood Shack,Japanese,$30-$40,4.7,4691,"San Diego, CA",No
+183,Taco Town,American,$20-$30,1.2,3596,"Houston, TX",Yes
+184,Seafood Shack,Mexican,$10-$20,4.4,7566,"Los Angeles, CA",Yes
+185,Pizza Paradise,BBQ,$10-$20,2.5,7895,"San Jose, CA",No
+186,Seafood Shack,Japanese,$30-$40,1.7,4733,"San Jose, CA",No
+187,Seafood Shack,Vegan,$30-$40,1.8,5427,"San Jose, CA",Yes
+188,Curry Corner,American,$20-$30,4.0,6170,"San Jose, CA",No
+189,Burger Barn,Seafood,$30-$40,3.2,5202,"Chicago, IL",No
+190,Seafood Shack,BBQ,$20-$30,4.2,8416,"Houston, TX",Yes
+191,Pasta Palace,Seafood,$20-$30,4.4,927,"Philadelphia, PA",No
+192,The Gourmet Kitchen,Italian,$40-$50,1.1,9484,"Dallas, TX",Yes
+193,Seafood Shack,Mexican,$40-$50,2.2,6176,"New York, NY",Yes
+194,Seafood Shack,Vegan,$40-$50,1.8,2063,"Houston, TX",Yes
+195,Pasta Palace,Seafood,$10-$20,2.9,8224,"Phoenix, AZ",Yes
+196,Pizza Paradise,Mexican,$40-$50,4.6,9552,"Dallas, TX",No
+197,Pasta Palace,Italian,$30-$40,1.7,8199,"Philadelphia, PA",Yes
+198,BBQ Bliss,Japanese,$20-$30,4.0,979,"Chicago, IL",Yes
+199,Vegan Valley,Mexican,$40-$50,3.3,5029,"San Antonio, TX",No
+200,BBQ Bliss,Vegan,$20-$30,4.5,2704,"Chicago, IL",No

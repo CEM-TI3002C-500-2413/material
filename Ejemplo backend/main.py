@@ -1,5 +1,6 @@
 import pandas as pd
 import sqlite3
+import joblib
 from fastapi import FastAPI
 from pydantic import BaseModel
 
@@ -9,6 +10,13 @@ class RestaurantModel(BaseModel):
     food_type : str
     price_range : str
     rating : float = 0
+    
+class RecommendModel(BaseModel):
+    food_type : str
+    price_range : str
+    rating : float
+    clients_per_month : int
+    location : str
     
 def create_connection():
     conn = sqlite3.connect("data.db")
@@ -20,6 +28,7 @@ def dict_factory(cursor, row):
 
 app = FastAPI()
 df = pd.read_csv("restaurants.csv")
+model = joblib.load("modelo.joblib")
 
 @app.get("/")
 def get_home():
@@ -73,6 +82,23 @@ def get_restaurant(restaurant_id : int):
     conn = create_connection()
     result_df = pd.read_sql(f"SELECT * FROM restaurant WHERE id = {restaurant_id}", conn)
     return result_df.to_dict(orient="records")
+
+# Recommendation
+@app.post("/recommend")
+def post_recommend(restaurant : RecommendModel):
+    restaurant_df = pd.DataFrame([{
+        "food type": restaurant.food_type,
+        "price range": restaurant.price_range,
+        "rating": restaurant.rating,
+        "clients per month": restaurant.clients_per_month,
+        "location": restaurant.location
+    }])
+    restaurant_df = pd.get_dummies(restaurant_df)
+    missing = [x for x in model.feature_names_in_ if x not in restaurant_df.columns]
+    restaurant_df[missing] = False
+    pred = model.predict(restaurant_df[model.feature_names_in_])
+    return {"recommended": pred[0]}
+    
 
 if __name__ == "__main__":
     import uvicorn
