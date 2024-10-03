@@ -1,4 +1,5 @@
 import pandas as pd
+import sqlite3
 from fastapi import FastAPI
 from pydantic import BaseModel
 
@@ -8,6 +9,14 @@ class RestaurantModel(BaseModel):
     food_type : str
     price_range : str
     rating : float = 0
+    
+def create_connection():
+    conn = sqlite3.connect("data.db")
+    return conn
+
+def dict_factory(cursor, row):
+    fields = [column[0] for column in cursor.description]
+    return {key: value for key, value in zip(fields, row)}
 
 app = FastAPI()
 df = pd.read_csv("restaurants.csv")
@@ -38,6 +47,32 @@ def post_restaurant(restaurant : RestaurantModel):
         "price range": restaurant.price_range,
         "rating": restaurant.rating
     }
+
+# Respuesta como tupla
+@app.get("/restaurant/{restaurant_id}")
+def get_restaurant(restaurant_id : int):
+    conn = create_connection()
+    cursor = conn.cursor()
+    cursor.execute(f"SELECT * FROM restaurant WHERE id = {restaurant_id}")
+    result = cursor.fetchone()
+    return result
+
+# Dictionary Factory
+@app.get("/restaurant_dict_factory/{restaurant_id}")
+def get_restaurant(restaurant_id : int):
+    conn = create_connection()
+    conn.row_factory = dict_factory
+    cursor = conn.cursor()
+    cursor.execute(f"SELECT * FROM restaurant WHERE id = {restaurant_id}")
+    result = cursor.fetchone()
+    return result
+
+# Pandas DataFrame
+@app.get("/restaurant_dataframe/{restaurant_id}")
+def get_restaurant(restaurant_id : int):
+    conn = create_connection()
+    result_df = pd.read_sql(f"SELECT * FROM restaurant WHERE id = {restaurant_id}", conn)
+    return result_df.to_dict(orient="records")
 
 if __name__ == "__main__":
     import uvicorn
