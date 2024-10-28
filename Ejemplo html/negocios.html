@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TipOn</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+
+    <nav class="flex md:flex-row flex-col justify-between items-center bg-gradient-to-b from-cyan-500 to-blue-600 px-6 py-8">
+        <div class="flex">
+            <a href="/index.html">
+                <img class="w-52" src="/images/logo.png" alt="Logo de TipOn">
+            </a>
+        </div>
+        <div class="flex space-x-4 font-semibold text-white text-xl">
+            <a href="/index.html" class="hover:text-blue-200 hover:underline">Inicio</a>
+            <a href="/negocios.html" class="hover:text-blue-200 hover:underline">Negocios</a>
+            <a href="/tableros.html" class="hover:text-blue-200 hover:underline">Tableros</a>
+            <a href="/predicción.html" class="hover:text-blue-200 hover:underline">Predicción</a>
+        </div>
+    </nav>
+
+    <main class="mx-auto px-4 py-10 max-w-7xl min-h-screen text-gray-700">
+
+        <section class="flex flex-col bg-white shadow-lg p-6 rounded-lg">
+
+            <div class="flex justify-end mb-4">
+                <select class="border-gray-300 px-4 py-2 border rounded-l-lg focus:outline-none focus:ring focus:ring-blue-300 w-96">
+                    <option value="" disabled selected>Selecciona un restaurante</option>
+                    <option value="restaurante1">Restaurante 1</option>
+                    <option value="restaurante2">Restaurante 2</option>
+                    <option value="restaurante3">Restaurante 3</option>
+                    <option value="restaurante4">Restaurante 4</option>
+                </select>
+                <button class="bg-blue-600 hover:bg-blue-700 px-4 rounded-r-lg text-white focus:outline-none focus:ring focus:ring-blue-300">
+                    Buscar
+                </button>
+            </div>
+
+
+            <div class="text-center">
+                <h2 class="mb-4 font-bold text-6xl">Restaurante</h2>
+            </div>
+            <p class="mb-4 text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus obcaecati assumenda fugit corporis exercitationem mollitia, quibusdam delectus, modi asperiores explicabo vel dolores adipisci maxime, placeat tenetur culpa vero est ullam?
+                Eligendi eius illum alias et, blanditiis sunt beatae praesentium porro reprehenderit, voluptate laborum explicabo delectus odit quasi repudiandae aliquid a, consequatur saepe fugiat inventore? Ratione veniam dolore sed! Sed, recusandae.
+                Suscipit cum quibusdam culpa nihil odit praesentium quia animi numquam, nulla quis eaque voluptatibus repellat porro, magni mollitia rem ipsam! Delectus cum non libero corrupti reiciendis officia optio eos ipsa.
+                Voluptatibus amet possimus ducimus in dolorem sunt ex maxime, libero, qui culpa id rerum quam. Doloribus, deleniti dignissimos. Doloribus illo odit pariatur reprehenderit voluptates. Beatae dolorem quasi praesentium impedit provident.
+                Hic repellendus iste cupiditate. Totam commodi quod veniam, earum asperiores velit obcaecati libero quos consequuntur sed ad eius nostrum officia exercitationem quia. Eligendi ratione eaque iste delectus praesentium, ad quas?
+            </p>
+            <img class="shadow-lg mb-4 rounded-lg" src="/images/pexels-amar-28056778.jpg" alt="Foto de la fachada de Loretta Café">
+            <div class="shadow-lg mb-4 p-6 rounded-lg text-center">
+                <h3 class="mb-4 font-semibold text-4xl">Indicadores</h3>
+                <div class="gap-6 grid grid-cols-1 md:grid-cols-4">
+                    <div class="shadow-lg p-6 rounded-lg">
+                        <h4 class="mb-2 font-semibold text-xl">Personal registrado</h4>
+                        <p class="mb-2 font-bold text-6xl">
+                            14
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline w-14 h-14">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+                            </svg>  
+                        </p>
+                        <p>Cuentas activas en el mes</p>
+                    </div>
+                    <div class="shadow-lg p-6 rounded-lg">
+                        <h4 class="mb-2 font-semibold text-xl">Propinas obtenidas</h4>
+                        <p class="mb-2 font-bold text-6xl text-green-700">
+                            +12%
+                        </p>
+                        <p>Respecto al mes pasado</p>
+                    </div>
+                    <div class="shadow-lg p-6 rounded-lg">
+                        <h4 class="mb-2 font-semibold text-xl">Promedio</h4>
+                        <p class="mb-2 font-bold text-6xl">
+                            $120
+                        </p>
+                        <p>Por propina</p>
+                    </div>
+                    <div class="shadow-lg p-6 rounded-lg">
+                        <h4 class="mb-2 font-semibold text-xl">Método de pago</h4>
+                        <p class="mb-2 font-bold text-6xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline w-14 h-14">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+                            </svg>
+                        </p>
+                        <p>Tarjeta de crédito</p>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow-lg mb-4 p-6 rounded-lg text-center">
+                <h3 class="mb-4 font-semibold text-4xl">Propinas del mes</h3>
+                <img class="rounded-lg" src="/images/newplot.png" alt="Gráfica de líneas con las propinas del mes">
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-600 py-10 text-center text-white md:text-lg">
+        <p>© 2024 TipOn. Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>
