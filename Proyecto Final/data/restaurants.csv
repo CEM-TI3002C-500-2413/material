@@ -1,0 +1,101 @@
+ID,Name,Food Type,Details,Smoking Area,Price Range,City,State,Image
+1,Ocean's Catch,Mediterranean,"Fresh seafood dishes with a coastal vibe, inspired by the ocean's best catches.",Yes,$$$,Houston,TX,pexels-photo-2042591.jpeg
+2,Spice Symphony,American,An orchestra of flavors from around the world with an emphasis on bold spices.,Yes,$$$,San Diego,TX,pexels-photo-29172133.jpeg
+3,La Bella Cucina,Chinese,"Authentic Italian cuisine served in a cozy, family-style setting.",No,$$$$,Los Angeles,TX,pexels-photo-29132866.jpeg
+4,The Burger Bar,Mexican,Classic and gourmet burgers with a variety of creative toppings and sides.,No,$,Dallas,AZ,pexels-photo-7317354.jpeg
+5,Veggie Garden,Cafe,"A plant-based paradise featuring vibrant, fresh vegetarian and vegan dishes.",Yes,$$$,Los Angeles,TX,pexels-photo-28577205.jpeg
+6,Prime Steakhouse,Mexican,Premium cuts of steak grilled to perfection in an upscale environment.,Yes,$$$,New York,NY,pexels-photo-8477074.jpeg
+7,Fiesta Mexicana,Steakhouse,Festive Mexican dining with a colorful array of traditional favorites.,Yes,$$,Dallas,NY,pexels-photo-8637991.jpeg
+8,Sushi Central,Thai,A sushi lover's dream with a variety of fresh rolls and sashimi.,Yes,$$$,New York,IL,pexels-photo-22607740.jpeg
+9,Pasta Palace,Mexican,A kingdom of pasta varieties and Italian sauces for a taste of Italy.,Yes,$$$$,New York,TX,pexels-photo-17546505.jpeg
+10,The Breakfast Nook,Mexican,Cozy breakfast and brunch classics served all day.,No,$$$,Dallas,AZ,pexels-photo-29071631.jpeg
+11,Grill & Chill,Greek,A relaxed spot for perfectly grilled meats and refreshing drinks.,Yes,$$$,Houston,TX,pexels-photo-9630132.jpeg
+12,Casa di Amici,Thai,"Italian for 'House of Friends', a warm place for Italian dishes and camaraderie.",No,$$$,Austin,CA,pexels-photo-2480399.jpeg
+13,Burger Bliss,Cafe,"Burger perfection, from classic to creative, with all the fixings.",No,$$$,San Antonio,TX,pexels-photo-29153209.jpeg
+14,Edo Sushi,Thai,Japanese-inspired sushi and sashimi with an emphasis on freshness.,No,$,San Diego,CA,pexels-photo-16471975.jpeg
+15,The Tandoori House,Italian,Traditional Indian flavors with a focus on tandoori specialties.,Yes,$,Phoenix,AZ,pexels-photo-29123388.jpeg
+16,BBQ Junction,Thai,"Southern BBQ with a variety of smoked meats, sauces, and sides.",Yes,$$$$,Phoenix,TX,pexels-photo-29177620.jpeg
+17,The Salad Corner,Greek,"Fresh, custom salads with a wide selection of greens and toppings.",Yes,$$,Los Angeles,NY,pexels-photo-8472173.jpeg
+18,Pizza Pros,American,Classic and creative pizzas crafted by pizza-making professionals.,No,$$,San Antonio,NY,pexels-photo-29174060.jpeg
+19,Taste of India,Bistro,A journey through India with authentic and aromatic dishes.,Yes,$,San Francisco,NY,pexels-photo-11160565.jpeg
+20,Dragon Palace,French,"Chinese cuisine in a regal setting, specializing in dim sum and seafood.",No,$$,San Antonio,TX,pexels-photo-29155241.jpeg
+21,Green Fork,Seafood,"Health-focused dishes emphasizing fresh, green, and organic ingredients.",Yes,$$$,Houston,AZ,pexels-photo-7123560.jpeg
+22,The Fish House,Seafood,Fresh and sustainably sourced seafood in a nautical atmosphere.,Yes,$$,San Francisco,IL,pexels-photo-14529600.jpeg
+23,Noodle Nirvana,Bistro,A noodle lover's paradise with flavors from Asia and beyond.,Yes,$,San Antonio,AZ,pexels-photo-29160633.jpeg
+24,Mediterranean Delight,Thai,Mediterranean classics with fresh ingredients and bold flavors.,No,$$$$,San Antonio,NY,pexels-photo-6252738.jpeg
+25,The Curry Lounge,American,A cozy spot for enjoying a wide variety of rich and fragrant curries.,No,$$$,San Antonio,TX,pexels-photo-29160661.jpeg
+26,Street Bites,Mediterranean,"Street food from around the world in a casual, vibrant setting.",No,$$,San Francisco,CA,pexels-photo-5920752.jpeg
+27,Viva Italia,Seafood,"Celebrating Italian flavors with pasta, pizza, and vino in a lively atmosphere.",Yes,$$$$,Chicago,AZ,pexels-photo-29159960.jpeg
+28,East Meets West,Steakhouse,A fusion of Asian and Western flavors for a unique culinary experience.,No,$$,Chicago,CA,pexels-photo-29175745.jpeg
+29,Ramen Haven,Mediterranean,Savory ramen bowls crafted to comfort and delight.,No,$$,Los Angeles,CA,pexels-photo-29160628.jpeg
+30,The Dumpling House,Italian,Handmade dumplings and other Asian specialties.,Yes,$,Chicago,TX,pexels-photo-7363748.jpeg
+31,Greek Table,Vegan,Traditional Greek fare with a focus on fresh ingredients and bold flavors.,No,$,Los Angeles,CA,pexels-photo-5086612.jpeg
+32,Soul Food Central,Bakery,"Southern soul food classics in a cozy, down-home atmosphere.",No,$$,New York,CA,pexels-photo-2365529.jpeg
+33,Pho & Beyond,Thai,Vietnamese specialties with a focus on pho and other noodle dishes.,Yes,$$,Dallas,AZ,pexels-photo-1612727.jpeg
+34,The Wine Cellar,Chinese,A curated wine selection with small plates for pairing.,Yes,$$$$,San Antonio,TX,pexels-photo-29096344.jpeg
+35,Spice Bazaar,Vegan,Global spices and flavors come together in this exotic dining spot.,No,$,Chicago,IL,pexels-photo-29152162.jpeg
+36,Tapas Twist,Fusion,"Spanish tapas with modern twists, perfect for sharing and sampling.",Yes,$$$$,Houston,NY,pexels-photo-29157382.jpeg
+37,The Italian Affair,Chinese,Classic Italian dishes with a touch of romance.,No,$$$,Chicago,TX,pexels-photo-29176028.jpeg
+38,Wok & Roll,Chinese,"Asian-inspired stir-fries and rolls with bold, fresh ingredients.",No,$,San Francisco,TX,pexels-photo-29175271.jpeg
+39,City Brunch,Fusion,A go-to for trendy brunch items in a chic city setting.,No,$$,Los Angeles,NY,pexels-photo-29117243.jpeg
+40,Taste of Thailand,Mexican,"Authentic Thai dishes with fresh, aromatic ingredients.",Yes,$$$,Los Angeles,TX,pexels-photo-16904985.jpeg
+41,Latin Flavors,Japanese,Latin American favorites from tacos to arepas with vibrant seasonings.,No,$$,Chicago,IL,pexels-photo-5864741.jpeg
+42,French Quarter,French,"French bistro-inspired cuisine in a charming, Parisian setting.",No,$,New York,AZ,pexels-photo-13449279.jpeg
+43,City Grill,Italian,"Urban grill classics from steak to seafood, in a contemporary setting.",No,$$$,Austin,NY,pexels-photo-2919579.jpeg
+44,Taco Town,Bistro,Tacos of all styles and flavors served with a side of fiesta.,Yes,$$,San Francisco,AZ,pexels-photo-20897747.jpeg
+45,Shawarma Shack,Steakhouse,Authentic shawarma wraps and platters with Mediterranean sides.,Yes,$$$,San Antonio,TX,pexels-photo-29130860.jpeg
+46,Blue Lagoon,Indian,"Tropical seafood dishes in a laid-back, beachy setting.",No,$$$$,San Antonio,TX,pexels-photo-346972.jpeg
+47,Sizzle & Stir,Bakery,"Hot and sizzling dishes from the wok and grill, inspired by Asian flavors.",No,$,Houston,TX,pexels-photo-6937425.jpeg
+48,Himalayan Feast,Steakhouse,Nepalese and Tibetan delicacies with spices from the Himalayas.,No,$,Los Angeles,TX,pexels-photo-29133875.jpeg
+49,Caribbean Cove,Vegan,"A taste of the islands with jerk, curry, and fresh seafood.",Yes,$,Dallas,NY,pexels-photo-1450354.jpeg
+50,Bistro Bella,Fusion,Cozy bistro fare with European-inspired dishes.,Yes,$,Chicago,NY,pexels-photo-1233535.jpeg
+51,Korean Grill House,Fusion,Korean BBQ experience with premium meats and classic sides.,Yes,$,Los Angeles,CA,pexels-photo-2132943.png
+52,Harvest Table,Mediterranean,"Farm-to-table dishes celebrating fresh, seasonal ingredients.",No,$$,New York,AZ,pexels-photo-29159393.jpeg
+53,Szechuan Garden,Vegan,Bold Szechuan flavors in an authentic Chinese setting.,Yes,$$,Phoenix,AZ,pexels-photo-29173987.jpeg
+54,Prime Time Burgers,Vegan,"Gourmet burgers for burger enthusiasts, grilled to perfection.",No,$$$$,San Antonio,TX,pexels-photo-6260622.jpeg
+55,Southern Comfort,American,Southern favorites like fried chicken and mac 'n cheese.,No,$$$$,Chicago,NY,pexels-photo-7525697.jpeg
+56,Seafood Sensations,Chinese,A seafood lover's paradise with freshly caught flavors.,Yes,$$,Houston,IL,pexels-photo-4725628.jpeg
+57,Sunshine Cafe,Chinese,"Bright, cheerful cafe offering breakfast, brunch, and fresh juices.",No,$$$$,Austin,IL,pexels-photo-29162224.jpeg
+58,Salsa Fresca,Mediterranean,"Fresh, vibrant Mexican dishes with a focus on salsa and flavors.",No,$$$$,Dallas,AZ,pexels-photo-13778389.jpeg
+59,Barbecue Bistro,Mexican,"Fusion of BBQ flavors in a refined, bistro-style atmosphere.",No,$$,Phoenix,CA,pexels-photo-29095927.jpeg
+60,Mamma Mia,Mexican,"Traditional Italian fare, from pasta to tiramisu, in a cozy setting.",Yes,$$,Los Angeles,AZ,pexels-photo-5701081.jpeg
+61,The Pancake Parlor,Chinese,Sweet and savory pancake creations served all day.,No,$$$,Los Angeles,CA,pexels-photo-29093042.jpeg
+62,Fusion Bites,Indian,Innovative fusion cuisine blending flavors from different cultures.,No,$,Houston,NY,pexels-photo-14855137.jpeg
+63,Yamato Sushi,Fusion,Elegant sushi dining with authentic Japanese flair.,No,$$$$,Los Angeles,AZ,pexels-photo-28992240.jpeg
+64,Sweet Tooth Bakery,Vegan,Decadent sweets and pastries for every craving.,No,$$$$,San Francisco,CA,pexels-photo-5582253.jpeg
+65,El Rancho,BBQ,"Traditional Mexican dishes in a warm, ranch-style atmosphere.",No,$,New York,IL,pexels-photo-7782440.jpeg
+66,Flame & Barrel,Mediterranean,"Smoky and flavorful dishes, from grilled meats to hearty sides.",Yes,$,New York,IL,pexels-photo-10388280.jpeg
+67,Cornerstone Cafe,Thai,"A neighborhood cafe serving fresh coffee, pastries, and light bites.",Yes,$$$$,Phoenix,IL,pexels-photo-29115797.jpeg
+68,Little India,American,A vibrant journey into India's rich culinary traditions.,Yes,$$$,San Francisco,AZ,pexels-photo-1806064.jpeg
+69,Rustic Roots,Japanese,"Comfort food with a rustic, farm-to-table approach.",No,$,Chicago,AZ,pexels-photo-29107033.jpeg
+70,The Shrimp Shack,Vegan,Shrimp and seafood dishes served up with coastal flair.,Yes,$$,Chicago,IL,pexels-photo-29133874.jpeg
+71,Grill House,Seafood,Classic grilled fare from burgers to ribs in a casual setting.,No,$$$,Austin,NY,pexels-photo-6225504.jpeg
+72,Taste of the Coast,BBQ,Coastal cuisine featuring fresh seafood and beachside flavors.,No,$$$$,Phoenix,CA,pexels-photo-8734106.jpeg
+73,The Green Bowl,Seafood,"Fresh salads, grain bowls, and smoothie bowls for the health-conscious.",No,$,San Diego,NY,pexels-photo-29116513.jpeg
+74,Tapas y Mas,Bistro,A taste of Spain with a variety of tapas and Spanish small plates.,No,$,Phoenix,AZ,pexels-photo-14098930.jpeg
+75,The Coffee Lounge,Greek,Relax with specialty coffee and light bites in a modern lounge.,No,$,Austin,NY,pexels-photo-5490341.jpeg
+76,Farm & Table,French,"Sustainable, locally-sourced dishes inspired by the farm-to-table concept.",Yes,$$,Houston,CA,pexels-photo-29122893.jpeg
+77,Gusto Italiano,Italian,Traditional Italian dining with a menu full of flavor and flair.,No,$,Dallas,AZ,pexels-photo-6692057.jpeg
+78,Sushi Spot,Italian,"Your go-to place for fresh, hand-rolled sushi.",No,$$$,San Diego,CA,pexels-photo-29162889.jpeg
+79,Urban Kitchen,Seafood,Contemporary cuisine with influences from around the globe.,Yes,$,San Antonio,IL,pexels-photo-29159850.jpeg
+80,The Sandwich Shop,Fusion,Handcrafted sandwiches with fresh ingredients and unique twists.,No,$$$$,Dallas,TX,pexels-photo-13630188.jpeg
+81,Vegan Paradise,Cafe,A haven for plant-based dishes bursting with flavor.,Yes,$$,Dallas,AZ,pexels-photo-4631075.jpeg
+82,Osteria Italiana,Italian,"An Italian tavern serving homemade pasta, pizza, and wine.",Yes,$$$,San Antonio,NY,pexels-photo-1024005.jpeg
+83,Pasta & Co,Mediterranean,A pasta lover's dream with homemade sauces and fresh ingredients.,Yes,$$$,New York,AZ,pexels-photo-3184182.jpeg
+84,Seaside Delights,BBQ,Fresh seafood and coastal dishes in a relaxing setting.,No,$,San Francisco,IL,pexels-photo-29176169.jpeg
+85,Farm Fresh Cafe,Bistro,"Healthy, organic options straight from farm to table.",No,$$,Austin,CA,pexels-photo-2562555.jpeg
+86,Rice & Noodle,Mediterranean,Asian-inspired rice and noodle dishes with authentic flavors.,No,$$,Los Angeles,CA,pexels-photo-4551835.jpeg
+87,Fish & Chips,Thai,"A classic British fish and chips spot with crispy, golden goodness.",No,$$$,New York,TX,pexels-photo-29176169.jpeg
+88,Mediterranean Moods,Chinese,Flavors of the Mediterranean with a fresh and modern touch.,Yes,$$$$,Phoenix,IL,pexels-photo-29151102.jpeg
+89,Taco Delight,American,A fiesta of taco flavors and toppings in a lively setting.,Yes,$$$,San Antonio,CA,pexels-photo-5840315.jpeg
+90,Urban Spice,Bistro,A modern take on global spices with fusion-style dishes.,Yes,$,Dallas,TX,pexels-photo-29155269.jpeg
+91,The Pie Crust,Thai,"Savory and sweet pies, baked fresh with a touch of tradition.",Yes,$$,San Francisco,CA,pexels-photo-604969.jpeg
+92,Brunch Bliss,Fusion,Brunch specialties from sweet to savory in a cozy setting.,No,$,San Antonio,IL,pexels-photo-18224446.jpeg
+93,Asian Fusion,Indian,Innovative fusion dishes inspired by flavors across Asia.,Yes,$$$$,Chicago,CA,pexels-photo-2792186.jpeg
+94,Jazzy Bites,Vegan,"Fun and flavorful small bites, perfect for sharing.",Yes,$$,Dallas,CA,pexels-photo-29151467.jpeg
+95,Taste of Morocco,Chinese,Traditional Moroccan dishes with aromatic spices and tagines.,Yes,$,Dallas,CA,pexels-photo-3645478.jpeg
+96,Pasta Lovers,Mediterranean,A cozy Italian spot with pasta dishes for every taste.,Yes,$$,Chicago,AZ,pexels-photo-12898338.jpeg
+97,Cafe Aroma,Thai,Specialty coffees and teas paired with fresh pastries and sandwiches.,Yes,$,Austin,CA,pexels-photo-29115797.jpeg
+98,Taste Buds,French,A playful menu with flavors from around the world.,No,$$$$,Houston,NY,pexels-photo-4109241.jpeg
+99,Fresh Bites,Chinese,"Healthy, quick meals made from fresh ingredients.",Yes,$,Austin,AZ,pexels-photo-29151467.jpeg
+100,Cafe Central,Thai,A welcoming cafe with classic coffee drinks and pastries.,Yes,$$$,Houston,AZ,pexels-photo-2133243.jpeg
