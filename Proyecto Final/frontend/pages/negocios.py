@@ -2,6 +2,7 @@ import dash
 import dash_svg
 import pandas as pd
 import plotly.express as px
+import requests
 from dash import html, dcc, callback, Input, Output, State, ALL
 
 backend_url = "http://127.0.0.1:8000"
@@ -44,3 +45,37 @@ layout = html.Div(
         )
     ]
 )
+
+@callback(
+    Output("search-results", "children"),
+    Input("search-button", "n_clicks"),
+    State("search-terms", "value")
+)
+def search_restaurants(n_clicks, search_terms):
+    if n_clicks is None:
+        return ""
+    else:
+        if not search_terms:
+            return html.Div(
+                className="text-center",
+                children=[
+                    html.P(className="font-semibold text-red-700 text-lg",
+                           children=["Debes introducir los términos que deseas buscar."])
+                ]
+                )
+        try:
+            search_url = f"{backend_url}/restaurant_search"
+            data = {
+                "terms": search_terms
+            }
+            search_response = requests.post(search_url, data=data)
+            search_results = search_response.json()
+            
+        except Exception as e:
+            return html.Div(
+                className="text-center",
+                children=[
+                    html.P(className="font-semibold text-red-700 text-lg",
+                           children=["Hubo un error en la comunicación con el servidor."])
+                ]
+                )
