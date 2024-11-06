@@ -20,7 +20,7 @@ nav = html.Nav(
                     children=[
                         html.Img(
                             className="w-52",
-                            src="/images/logo.png",
+                            src=dash.get_asset_url("images/logo.png"),
                             alt="Logo de TipOn",
                         )
                     ],
