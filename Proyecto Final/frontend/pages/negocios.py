@@ -70,7 +70,24 @@ def search_restaurants(n_clicks, search_terms):
             }
             search_response = requests.post(search_url, data=data)
             search_results = search_response.json()
-            
+            return html.Ul(
+                        className="mb-4 space-y-4",
+                        children=[
+                            html.Li(
+                                className="flex flex-col items-center justify-between rounded-lg bg-white p-4 shadow-md md:flex-row",
+                                children=[
+                                    html.Span(
+                                        className="text-lg font-semibold text-gray-700",
+                                        children=[restaurant["Name"]],
+                                    ),
+                                    html.Button(
+                                        id={"type":"restaurant-button", "index":restaurant["rowid"]},
+                                        className="rounded-lg bg-gradient-to-br from-teal-400 to-blue-500 px-6 py-3 font-semibold text-white hover:from-pink-300 hover:to-orange-600",
+                                        children=["Ver restaurante"],
+                                    ),
+                                ],
+                            ) for restaurant in search_results],
+                    )
         except Exception as e:
             return html.Div(
                 className="text-center",
