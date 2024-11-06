@@ -68,7 +68,7 @@ def search_restaurants(n_clicks, search_terms):
             data = {
                 "terms": search_terms
             }
-            search_response = requests.post(search_url, data=data)
+            search_response = requests.post(search_url, json=data)
             search_results = search_response.json()
             return html.Ul(
                         className="mb-4 space-y-4",
