@@ -7,7 +7,12 @@ external_scripts = [
     {"src": "https://cdn.tailwindcss.com"}
 ]
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets, external_scripts=external_scripts, use_pages=True)
+app = dash.Dash(__name__, 
+                external_stylesheets=external_stylesheets, 
+                external_scripts=external_scripts, use_pages=True,
+                title="TipOn", 
+                update_title="Cargando...",
+                suppress_callback_exceptions=True)
 
 nav = html.Nav(
     className="flex md:flex-row flex-col justify-between items-center bg-gradient-to-b from-cyan-500 to-blue-600 px-6 py-8",
@@ -46,7 +51,7 @@ nav = html.Nav(
                     children=["Tableros"],
                 ),
                 dcc.Link(
-                    href="/predicción",
+                    href="/predicciones",
                     className="hover:text-blue-200 hover:underline",
                     children=["Predicción"],
                 ),

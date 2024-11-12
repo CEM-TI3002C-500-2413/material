@@ -1,0 +1,21 @@
+Food Type,Smoking Area,Price Range,City,State
+Mediterranean,Yes,$$$,Houston,TX
+American,Yes,$$$,San Diego,TX
+Chinese,No,$$$$,Los Angeles,TX
+Mexican,No,$,Dallas,AZ
+Cafe,Yes,$$$,Los Angeles,TX
+Mexican,Yes,$$$,New York,NY
+Steakhouse,Yes,$$,Dallas,NY
+Thai,Yes,$$$,New York,IL
+Mexican,Yes,$$$$,New York,TX
+Mexican,No,$$$,Dallas,AZ
+Greek,Yes,$$$,Houston,TX
+Thai,No,$$$,Austin,CA
+Cafe,No,$$$,San Antonio,TX
+Thai,No,$,San Diego,CA
+Italian,Yes,$,Phoenix,AZ
+Thai,Yes,$$$$,Phoenix,TX
+Greek,Yes,$$,Los Angeles,NY
+American,No,$$,San Antonio,NY
+Bistro,Yes,$,San Francisco,NY
+French,No,$$,San Antonio,TX

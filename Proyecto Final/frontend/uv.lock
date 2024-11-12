@@ -88,6 +88,18 @@ wheels = [
 ]
 
 [[package]]
+name = "dash-ag-grid"
+version = "31.2.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "dash" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/cd/10/98baeb9e426ed73fa32db6878df5f2f15e4c59b3030e7a4dfb34ac713946/dash_ag_grid-31.2.0.tar.gz", hash = "sha256:b346513a26b58e47422be9dfd56a053502a44636ca59b205ccbdaa76867facc4", size = 3787026 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f9/d9/f4dfdeb1bc01eb1c57614cd3e35b29be24cc3a238d9f8d2e57312d465357/dash_ag_grid-31.2.0-py3-none-any.whl", hash = "sha256:b7320787902f347a2bcaa8f6da5a0442f5fd3760cf90b50b50d82ce68305cbc4", size = 3807178 },
+]
+
+[[package]]
 name = "dash-core-components"
 version = "2.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -145,6 +157,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "dash" },
+    { name = "dash-ag-grid" },
     { name = "dash-svg" },
     { name = "pandas" },
     { name = "requests" },
@@ -153,6 +166,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "dash", specifier = ">=2.18.2" },
+    { name = "dash-ag-grid", specifier = ">=31.2.0" },
     { name = "dash-svg", specifier = ">=0.0.12" },
     { name = "pandas", specifier = ">=2.2.3" },
     { name = "requests", specifier = ">=2.32.3" },
