@@ -22,3 +22,5 @@
 - `dash-ag-grid`
 - `pandas`
 - `requests`
+- `python-dotenv`
+- `langchain-openai`

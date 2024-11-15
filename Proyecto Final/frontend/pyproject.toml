@@ -5,9 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "dash>=2.18.2",
-    "dash-svg>=0.0.12",
-    "pandas>=2.2.3",
-    "requests>=2.32.3",
     "dash-ag-grid>=31.2.0",
+    "dash-svg>=0.0.12",
+    "dash>=2.18.2",
+    "langchain-openai>=0.2.8",
+    "pandas>=2.2.3",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
 ]
